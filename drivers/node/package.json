@@ -1,0 +1,16 @@
+{
+  "name": "access_drivers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Taylor",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.0.16",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-simpledb": "^5.1.0"
+  }
+}

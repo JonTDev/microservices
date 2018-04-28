@@ -1,0 +1,48 @@
+{
+  "drivers" : {
+    "path" : "{{root}}drivers{",
+    "bash" : "{bash}",
+    "node" : "{node}",
+    "php" : "{php}"
+  },
+  "services" : {
+    "path": "{{root}}services{",
+    "employees": {
+      "driver" : "php",
+      "get": "get{index.php",
+      "post": "post{index.php",
+      "put": "put{index.php",
+      "delete": "delete{index.php"
+    },
+    "items" : {
+      "driver" : "node",
+      "get": "get{index.js",
+      "post": "post{index.js",
+      "put": "put{index.js",
+      "delete": "delete{index.js"
+    },
+    "sales" : {
+      "driver" : "node",
+      "get": "get{index.js",
+      "post": "post{index.js",
+      "put": "put{index.js",
+      "delete": "delete{index.js"
+    },
+    "server" : {
+      "driver" : "bash",
+      "info": "info{index.sh",
+      "status": "status{index.sh",
+      "hardware": "hardware{index.sh"
+    }
+  },
+  "shortcodes" : {
+    "{{root}}" : "AP_HOME",
+    "{" : "AP_DS"
+  },
+  "database" : {
+    "host" : "localhost",
+    "user" : "root",
+    "pass" : "",
+    "database" : "company"
+  }
+}
